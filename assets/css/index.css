@@ -1,0 +1,29 @@
+#message {
+	display:block;
+	width:75%;
+	height: 75%;
+	align-items: center;
+    
+};
+
+#message div{
+	display:flex;
+	width:auto;
+	
+	/*background-color:rgb(181, 247, 201);*/
+}
+#message ul{
+	display:block;
+	width:auto;
+	height:auto;
+	
+	/*background-color:rgb(247, 211, 181);*/
+}
+
+#message li{
+	display:block;
+	width:auto;
+	height:auto;
+	margin-top:5px;
+	/*background-color:rgb(181, 199, 247);*/
+}
