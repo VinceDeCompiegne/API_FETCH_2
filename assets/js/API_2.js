@@ -1,5 +1,6 @@
 var codePostale = document.querySelector('#cp');
 var codeMeteo = document.querySelector('Meteo');
+
 console.log(codePostale.value);
 
 codePostale.addEventListener('input', function(){
@@ -22,7 +23,7 @@ codePostale.addEventListener('input', function(){
                 {
       
                 console.log(ville.nom);
-                let url2 = `https://api.openweathermap.org/data/2.5/weather?q=${ville.nom}&units=metric&lang=fr&appid=32675697c33bcdce0b0e1930ba463748`
+                let url2 = `https://api.openweathermap.org/data/2.5/weather?q=${ville.nom}&units=metric&lang=fr&appid=${API_KEY}`
 
                 fetch(url2).then((reponse) =>
                     reponse.json().then((data) =>   
